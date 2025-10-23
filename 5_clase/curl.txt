@@ -1,0 +1,7 @@
+Listar archivos:  
+curl -X 'GET' 'http://127.0.0.1:8000/files'
+Ver archivo:  
+curl -X 'GET' 'http://127.0.0.1:8000/files/test.txt'
+
+Crear archivo:  
+curl -X 'POST' 'http://127.0.0.1:8000/files' -H 'Content-Type: application/json' -d '{"name": "test.txt", "content": "Este es un archivo de prueba"}' 
