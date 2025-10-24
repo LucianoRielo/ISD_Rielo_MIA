@@ -1,0 +1,10 @@
+{ "items": 
+        [
+            { "id": 1, "product_category": "food_item", "price": 2.0 },
+            { "id": 2, "product_category": "cellphone", "price": 600.0 },
+            { "id": 3, "product_category": "computer", "price": 1000.0 },
+            { "id": 4, "product_category": "car", "price": 6000.0 },
+            { "id": 5, "product_category": "imported_car", "price": 6000.0 }
+        ], 
+    
+    "discount": "student"}
